@@ -4,6 +4,7 @@ RUN apk add --update \
 		bash \
 		certbot \
 		tini \
+		openssl \
 	&& rm -rf /var/cache/apk/*
 
 EXPOSE 80
